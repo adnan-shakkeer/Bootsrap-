@@ -1,0 +1,63 @@
+img.slide{
+   
+    /* object-fit: contain; */
+}
+.carousel-item img{
+    width: 100%;
+    height: 100vh;
+}
+
+#order {
+  background: url('/background.jpg') no-repeat center center/cover;
+  padding: 60px 0;
+}
+
+#order h1 {
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+#order .card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#order .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+#order .card img {
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+#order .btn {
+  border-radius: 25px;
+  padding: 8px 20px;
+}
+#footer{
+    background: url('/footer-background.jpg') no-repeat center center/cover;
+    padding: 60px 0;       /* top & bottom spacing */   /* creates space before footer */
+    margin-bottom: 0px;
+}
+#footer{
+    height: auto;
+}
+.footer-box{
+    
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    
+}
+.footer-box .btn-primary{
+   
+
+}

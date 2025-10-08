@@ -8,7 +8,7 @@ img.slide{
 }
 
 #order {
-  background: url('/background.jpg') no-repeat center center/cover;
+  background: url('background.jpg') no-repeat center center/cover;
   padding: 60px 0;
 }
 
@@ -41,7 +41,7 @@ img.slide{
   padding: 8px 20px;
 }
 #footer{
-    background: url('/footer-background.jpg') no-repeat center center/cover;
+    background: url('footer-background.jpg') no-repeat center center/cover;
     padding: 60px 0;       /* top & bottom spacing */   /* creates space before footer */
     margin-bottom: 0px;
 }
